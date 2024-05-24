@@ -1,0 +1,1 @@
+package exception;public class IsException extends Exception{    public IsException(){        super();}        public IsException(String message){            super(message);        }    }

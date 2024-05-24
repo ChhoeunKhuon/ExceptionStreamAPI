@@ -1,0 +1,1 @@
+package repository;import exception.IsException;public interface CourseRepository {    void createCourse() throws IsException;    void listCourse();    void searchById();    void searchByName();    void removeById();}

@@ -1,0 +1,1 @@
+import exception.IsException;import view.CourseView;public class Main {    public static void main(String[] args){        try {            CourseView courseView = new CourseView();            courseView.menu();        }catch(IsException e){            System.out.println(e.getMessage());        }    }}
